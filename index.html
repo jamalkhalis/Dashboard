@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+	
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" type="text/css" href="./assets/libraries/bootstrap/css/bootstrap.rtl.min.css">
+
+	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <title></title>
+
+</head>
+<body>
+
+	<section class="">
+
+		<img src="./assets/img/bg.png" class="position-absolute bottom-0 end-0 z-index-n1" width="525" height="393.33">
+		
+		 <!-- navigation  -->
+		<header class="container-fluid shadow-sm bg-white">
+			
+			<nav class="navbar navbar-expand-lg navbar-light py-2">
+				
+				<div class="container-fluid">
+
+					<a class="navbar-brand" href="#">
+						<img src="./assets/logo/sol.png" class="img-fluid" height="45">
+					</a>
+
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+							<li class="nav-item mx-4 ms-lg-5">
+								<a class="nav-link text-color-gray" aria-current="page" href="#">
+									<img src="./assets/libraries/icons/Home.png" class="me-1">
+									<span class="d-inline-block align-text-top">
+										الرئيسية
+									</span>
+								</a>
+							</li>
+
+							<li class="nav-item mx-4">
+								<a class="nav-link text-color-gray" href="#">
+									<img src="./assets/libraries/icons/Items.png" class="me-1">
+									<span class="d-inline-block align-text-top">
+										 المنتجات 
+									</span>
+								</a>
+							</li>
+
+							<li class="nav-item mx-4">
+								<a class="nav-link text-color-gray" href="#">
+									<img src="./assets/libraries/icons/orders.png" class="me-1">
+									<span class="d-inline-block align-text-top">
+										 الطلبات 
+									</span>
+								</a>
+							</li>
+
+							<li class="nav-item mx-4">
+								<a class="nav-link text-color-gray" href="#">
+									<img src="./assets/libraries/icons/Cart.png" class="me-1">
+									<span class="d-inline-block align-text-top">
+										 عربة التسوق 
+									</span>
+								</a>
+							</li>
+
+						</ul> <!-- end .navbar-nav -->
+
+						<div class="dropdown">
+
+							<button class="btn btn-secondary shadow-none border-0 bg-color-orange px-4 rounded-pill" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+								<img src="./assets/libraries/icons/Vector.png">
+								العلوي حسن
+							</button>
+
+							<ul class="dropdown-menu dropdown-menu-start dropdown-menu-lg-end p-2 w-238 border-0 shadow-lg mt-2" aria-labelledby="dropdownMenuButton1">
+
+								<li>
+									<a class="dropdown-item rounded-3" href="#">الملف الشخصي</a>
+								</li>
+
+								<li>
+									<a class="dropdown-item rounded-3 active-2" href="#">تسجيل الخروج</a>
+								</li>
+
+							</ul>
+
+						</div> <!-- end .dropdown -->
+
+					</div> <!-- end .collapse -->
+
+				</div> <!-- end .container-fluid -->
+
+			</nav> <!-- end .navbar -->
+
+		</header> <!-- end navigation -->
+
+		<!-- content -->
+		<div> 
+
+			<div class="row m-2 m-lg-3">
+
+				<div class="pe-0 col-5 col-md-4 col-lg-2 bg-color-orange pe-2 px-md-4 py-3 rounded-4 text-white vh-88">
+
+					<div class="text-center px-3 py-3 rectangle">
+
+						<img src="./assets/img/farm.png" class="img-fluid">
+						<h4 class="mt-2"> اهلا بعودتك </h4>
+						<div>العلوي حسن</div>
+						
+					</div>
+
+					<div class="h-65">
+						
+						<div class="nav flex-column nav-pills mt-2 h-100" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+
+							<button class="nav-link text-white text-start my-2" id="v-pills-branches-tab" data-bs-toggle="pill" data-bs-target="#v-pills-branches" type="button" role="tab" aria-controls="v-pills-branches" aria-selected="false">
+								<img src="./assets/libraries/icons/branches-white.png" class="whiteIcon">
+								<img src="./assets/libraries/icons/branches-orange.png" class="orangeIcon">
+								الفروع  
+							</button>
+
+							<button class="nav-link text-white text-start my-2 active" id="v-pills-home-tab" data-bs-toggle="pill" data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home" aria-selected="true">
+								<img src="./assets/libraries/icons/user-orange.png" class="orangeIcon">
+								<img src="./assets/libraries/icons/user-white.png" class="whiteIcon">
+								حسابي
+							</button>
+
+							<button class="nav-link text-white text-start my-2" id="v-pills-messages-tab" data-bs-toggle="pill" data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages" aria-selected="false">
+								<img src="./assets/libraries/icons/phone-white.png" class="whiteIcon">	
+								<img src="./assets/libraries/icons/phone-orange.png" class="orangeIcon">			
+								تواصل معنا
+							</button>
+
+							<button class="nav-link text-white text-start my-2" id="v-pills-who-we-are-tab" data-bs-toggle="pill" data-bs-target="#v-pills-who-we-are" type="button" role="tab" aria-controls="v-pills-who-we-are" aria-selected="false">
+								<img src="./assets/libraries/icons/we-white.png" class="whiteIcon">
+								<img src="./assets/libraries/icons/we-orange.png" class="orangeIcon">
+								 من نحن 
+							</button>
+
+							<button class="nav-link text-white text-start my-2" id="v-pills-terms-tab" data-bs-toggle="pill" data-bs-target="#v-pills-terms" type="button" role="tab" aria-controls="v-pills-terms" aria-selected="false">
+								<img src="./assets/libraries/icons/terms-white.png" class="whiteIcon">
+								<img src="./assets/libraries/icons/terms-orange.png" class="orangeIcon">
+								الشروط والاحكام
+							</button>
+
+							<button class="nav-link text-white text-start my-2 mb-auto" id="v-pills-lang-tab" data-bs-toggle="pill" data-bs-target="#v-pills-lang" type="button" role="tab" aria-controls="v-pills-lang" aria-selected="false">
+								<img src="./assets/libraries/icons/earth-white.png" class="whiteIcon">
+								<img src="./assets/libraries/icons/earth-orange.svg" class="orangeIcon">
+								English
+							</button>
+
+							<button class="nav-link text-white text-start mt-2" id="v-pills-out-tab" data-bs-toggle="pill" data-bs-target="#v-pills-out" type="button" role="tab" aria-controls="v-pills-out" aria-selected="false">
+								<img src="./assets/libraries/icons/out-white.png" class="whiteIcon">
+								<img src="./assets/libraries/icons/out-orange.svg" class="orangeIcon">
+								تسجيل الخروج
+							</button>
+
+						</div> <!-- end .nav-pills -->
+
+					</div>
+					
+				</div>
+
+				<div class="col-7 col-md-8 col-lg-10 tab-content" id="v-pills-tabContent" >
+
+					<div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
+
+						<div class="container text-color-gray" id="v-pills-home-container">
+
+							<h4 class="text-black">نظرة عامة</h4>
+
+							<div class="row mt-4 pt-lg-5">
+
+								<div class="col-lg-6 px-md-3">
+									<div class="bg-white box">
+										<div>اسم ممثل الشركة</div>
+										<hr>
+										<h4 class="text-color-orange">العلوي حسن</h4>
+									</div>
+								</div>
+
+								<div class="col-lg-6 px-md-3 pt-2 pt-md-3 pt-lg-0">
+									<div class="bg-white box">
+										<div> اسم الشركة </div>
+										<hr>
+										<h4 class="text-color-orange"> شركة العلوي </h4>
+									</div>
+								</div>
+
+								<div class="col-lg-6 px-md-3 pt-2 pt-md-3 pt-lg-4">
+									<div class="bg-white box">
+										<div> نوع الشركة </div>
+										<hr>
+										<h4 class="text-color-orange"> مطعم </h4>
+									</div>
+								</div>
+
+								<div class="col-lg-6 px-md-3 pt-2 pt-md-3 pt-lg-4">
+									<div class="bg-white box">
+										<div> الرصيد </div>
+										<hr>
+										<h4 class="text-color-orange"> 15,000  ريال   </h4>
+									</div>
+								</div>
+
+								<div class="col-lg-12 px-md-3 pt-2 pt-md-3 pt-lg-4">
+									<div class="bg-white box">
+										<div>  بيانات التواصل  </div>
+										<hr>
+										<div class="row">
+
+											<div class="col-lg-6">
+												<h4 class="fw-normal">
+													<span>  رقم الهاتف   :</span>
+													<span class="text-color-orange">01030891060</span>
+												</h4>
+											</div>
+
+											<div class="col-lg-6">
+												<h4 class="fw-normal">
+													<span>  البريد الالكتروني   : </span>
+													<span class="text-color-orange f-seize-email">contact@sols.com</span>
+												</h4>
+											</div>	
+
+										</div>
+									</div>
+								</div>					
+
+							</div>
+
+							<div class="row mt-3 mt-lg-5 justify-content-center fs-1">
+
+								<div class="col-lg-5 d-grid">
+									<!-- change data button -->
+									<button class="btn btn-lg btn-secondary rounded-5 py-3 px-md-5 bg-color-orange shadow-none border-0" id="change-data">
+										<img src="./assets/libraries/icons/user-edit.png">
+										تعديل البيانات
+									</button>
+								</div>
+
+								<div class="col-lg-5 d-grid mt-2 mt-lg-0">
+									<!-- change password button -->
+									<button class="btn btn-lg btn-secondary rounded-5 py-3 px-md-5 bg-color-orange shadow-none border-0" id="change-password">
+										<img src="./assets/libraries/icons/lock-alt.png">
+										 تغيير كلمة المرور
+									</button>
+								</div>
+								
+							</div>
+
+						</div> <!-- end #v-pills-home-container  -->
+
+
+						<div id="v-pills-home-change-data">
+
+						<form>
+
+							<div class="container text-color-gray">
+
+								<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+
+									<ol class="breadcrumb text-black">
+
+										<li class="breadcrumb-item h4">
+											<a href="#" class="text-black text-decoration-none" id="return-to-v-pills-home">حسابي</a>
+										</li>
+
+										<li class="breadcrumb-item h4 active" aria-current="page">تعديل البيانات</li>
+
+									</ol>
+
+								</nav>
+
+								<div class="row pt-lg-5">
+
+									<div class="col-lg-6 px-md-3">
+										<div class="mb-4">
+											<label for="exampleFormControlInput1" class="form-label">    اسم الشركة     </label>
+											<input type="text" class="form-control ps-4" id="exampleFormControlInput1" value="شركة العلوي" >
+										</div>
+									</div>
+
+									<div class="col-lg-6 px-md-3">
+										<div class="mb-4">
+											<label for="exampleFormControlInput2" class="form-label">    اسم ممثل الشركة    </label>
+											<input type="text" class="form-control ps-4" id="exampleFormControlInput2" value="العلوي حسن" >
+										</div>
+									</div>
+
+									<div class="col-lg-6 px-md-3">
+										<div class="mb-4">
+											<label for="exampleFormControlInput3" class="form-label">    البريد الالكتروني   </label>
+											<input type="email" class="form-control ps-4" id="exampleFormControlInput3" value="mrmhrms@gmail.com" >
+										</div>
+									</div>
+
+									<div class="col-lg-6 px-md-3">
+										<div class="mb-4 position-relative">
+											<label for="exampleFormControlInput4" class="form-label">     رقم الجوال   </label>
+											<img src="./assets/libraries/icons/mobile.png" class="position-absolute start-4 top-55 z-index-1">
+											<div class="input-group z-index-0">
+
+												<input type="text" class="form-control ps-5 w-75" id="exampleFormControlInput4" placeholder="رقم جوالك">
+
+												<select class="form-select" aria-label="Default select example">
+													<option selected value="966">966</option>
+													<option value="212">212</option>
+													<option value="34">34</option>
+													<option value="143">143</option>
+												</select>
+
+											</div>
+										</div>
+									</div>
+
+								</div>
+							
+							</div>
+
+							<div class="row mt-3 mt-lg-5 justify-content-center">
+
+								<div class="col-lg-4 d-grid">
+									<!-- save data button -->
+									<button class="btn btn-lg btn-secondary rounded-5 py-2 px-md-5 bg-color-orange shadow-none border-0" id="save-data" data-bs-toggle="modal" data-bs-target="#exampleModalData" type="button">
+										حفظ
+									</button>
+								</div>
+
+								<!-- Modal -->
+								<div class="modal fade" id="exampleModalData" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered">
+
+										<div class="modal-content rounded-5">
+
+											<div class="modal-header border-0 pb-0">
+												<button type="button" class="btn-close ms-0" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+
+											<div class="modal-body text-center pt-1">
+
+												<img src="./assets/img/dataSaved.png" class="img-fluid">
+
+												<h3 class="my-5">  تم تغيير بياناتك بنجاح  </h3>
+
+												<div class="row justify-content-center mb-5">
+													<div class="col-10 col-md-8 d-grid ">
+														<!-- save data ok button -->
+														<button class="btn btn-lg btn-secondary rounded-5 py-3 px-md-5 bg-color-orange shadow-none border-0" id="save-data-ok" type="submit" data-bs-dismiss="modal">
+															حسناً
+														</button>
+													</div>
+												</div>
+
+											</div>
+
+										</div>
+
+									</div>
+								</div> <!-- emd Modal -->						
+								
+							</div>
+						
+						</form>
+
+						</div> <!-- end #v-pills-home-data -->
+
+
+						<div id="v-pills-home-change-password">
+
+							<div class="container text-color-gray">
+
+								<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+
+									<ol class="breadcrumb text-black">
+
+										<li class="breadcrumb-item h4">
+											<a href="#" class="text-black text-decoration-none" id="return-to-v-pills-home-password">حسابي</a>
+										</li>
+
+										<li class="breadcrumb-item h4 active" aria-current="page"> تغيير كلمة المرور </li>
+
+									</ol>
+
+								</nav>
+
+								<div class="pt-lg-5">
+
+									<ul>
+										<li class="text-black h4">  أحرص على أن تكون كلمة المرور قوية  </li>
+									</ul>
+
+									<p class="ms-4 ps-2"> 
+										 يجب أن تكون كلمة المرور غير مستخدمة مسبقا
+									</p>
+									
+								</div>
+
+								<div class="row mt-5">
+
+									<div class="col-lg-6 px-md-3">
+										<div class="mb-4 position-relative">
+											<img src="./assets/libraries/icons/open-eye.png" class="position-absolute end-3 top-55">
+											<label for="oldPassword" class="form-label">    كلمة المرور الحالية      </label>
+											<input type="text" class="form-control ps-4" id="oldPassword" value=" A23sfooy'm456$ " >
+										</div>
+									</div>
+
+								</div>
+
+								<form class="">
+
+
+								<div class="row mt-4">
+
+									<div class="col-lg-6 px-md-3">
+										<div class="mb-4 position-relative">
+											<img src="./assets/libraries/icons/close-eye.png" class="position-absolute end-3 top-55">
+											<label for="oldPassword" class="form-label">      كلمة المرور الجديدة      </label>
+											<input type="password" class="form-control ps-4" id="newPassword1" required>
+										</div>
+									</div>
+
+									<div class="col-lg-6 px-md-3">
+										<div class="position-relative">
+
+											<img src="./assets/libraries/icons/close-eye.png" class="position-absolute end-3 top-55">
+											<label for="oldPassword" class="form-label">   تأكد كلمة المرور الجديدة  </label>
+											<input type="password" class="form-control ps-4" id="newPassword2" required>
+										
+										</div>
+
+										<div id="invalidFeedbackPassword">
+												كلمة المرور غير متطابقة!
+										</div>
+
+									</div>
+
+								</div>
+
+								<div class="row mt-5 justify-content-center">
+
+									<div class="col-lg-4 d-grid">
+										<!-- save password button -->
+										<button class="btn btn-lg btn-secondary rounded-5 py-2 px-md-5 bg-color-orange shadow-none border-0" id="save-password" data-bs-toggle="modal" data-bs-target="#exampleModalPassword" type="button">
+											حفظ
+										</button>
+									</div>
+
+									<!-- Modal -->
+									<div class="modal fade" id="exampleModalPassword" tabindex="-1" aria-labelledby="exampleModalPassword" aria-hidden="true">
+										<div class="modal-dialog modal-dialog-centered">
+
+											<div class="modal-content rounded-5">
+
+												<div class="modal-header border-0 pb-0">
+													<button type="button" class="btn-close ms-0" data-bs-dismiss="modal" aria-label="Close"></button>
+												</div>
+
+												<div class="modal-body text-center pt-3 position-relative">
+
+													<img src="./assets/img/passwordSaved1.png" class="img-fluid">
+
+													<h3 class="my-5">  تم تغيير  كلمة المرور بنجاح   </h3>
+
+													<div class="row justify-content-center mb-5">
+														<div class="col-10 col-md-8 d-grid ">
+															<!-- save password ok button -->
+															<button class="btn btn-lg btn-secondary rounded-5 py-3 px-md-5 bg-color-orange shadow-none border-0" id="save-password-ok" type="button" data-bs-dismiss="modal">
+																حسناً
+															</button>
+														</div>
+													</div>
+
+												</div>
+
+											</div>
+
+										</div>
+									</div> <!-- emd Modal -->	
+
+								</div>
+
+							</form>
+
+
+							</div>
+
+						</div> <!-- end #v-pills-home-change-password -->
+
+					</div> <!-- end #v-pills-home -->
+
+
+					<div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
+						
+						<div class="container text-color-gray" id="v-pills-messages-container">
+
+						<form>
+
+							<h2 class="text-black">  نحن هنا لمساعدتك   </h2>
+
+							<div class="row mt-5 pt-lg-5">
+
+								<div class="col-lg-6 px-md-3">
+									<div class="mb-4">
+										<label for="formControlMessage1" class="form-label">    الاسم    </label>
+										<input type="text" class="form-control ps-4" id="formControlMessage1" value="محمد العلمي" >
+									</div>
+								</div>
+
+								<div class="col-lg-6 px-md-3">
+									<div class="mb-4 position-relative">
+										<label for="formControlMessage2" class="form-label">     رقم الجوال   </label>
+										<!-- <img src="./assets/libraries/icons/mobile.png" class="position-absolute start-4 top-55 z-index-1"> -->
+										<div class="input-group z-index-0">
+
+											<input type="text" class="form-control ps-4 w-75" id="formControlMessage2" value="12345678">
+
+											<select class="form-select" aria-label="Default select example">
+												<option selected value="966">966</option>
+												<option value="212">212</option>
+												<option value="34">34</option>
+												<option value="143">143</option>
+											</select>
+
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+							<div>
+
+								<label for="formControlMessage3" class="form-label">    رسالتك    </label>
+								<textarea id="formControlMessage3" class="form-control" rows="9" placeholder="أكتب رسالتك هنا"></textarea>
+								
+							</div>
+
+							<div class="row justify-content-end mt-5">
+
+								<div class="col col-md-8 col-lg-5 d-grid">
+									<!-- send message button -->
+									<button class="btn btn-lg btn-secondary rounded-5 py-3 px-md-5 bg-color-orange shadow-none border-0" id="send-message" type="button"  data-bs-toggle="modal" data-bs-target="#modalSendMessage">
+										إرسال
+									</button>
+								</div>
+
+								<!-- Modal -->
+								<div class="modal fade" id="modalSendMessage" tabindex="-1" aria-labelledby="modalSendMessage" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered">
+
+										<div class="modal-content rounded-5">
+
+											<div class="modal-header border-0 pb-0">
+												<button type="button" class="btn-close ms-0" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+
+											<div class="modal-body text-center pt-3 position-relative">
+
+												<img src="./assets/img/messageSent.png" class="img-fluid">
+
+												<h3 class="mt-5 text-black">  تم إرسال رسالتك   </h3>
+
+												<p class="my-4">         سيتم التواصل معك في أقرب وقت ممكن      </p>
+
+												<div class="row justify-content-center mb-5">
+													<div class="col-10 col-md-8 d-grid ">
+														<!-- save password ok button -->
+														<button class="btn btn-lg btn-secondary rounded-5 py-3 px-md-5 bg-color-orange shadow-none border-0" id="save-message-ok" type="button" data-bs-dismiss="modal">
+															حسناً
+														</button>
+													</div>
+												</div>
+
+											</div>
+
+										</div>
+
+									</div>
+								</div> <!-- emd Modal -->	
+
+							</div>
+
+						</form>
+
+						</div> <!-- end #v-pills-messages-container -->
+
+					</div>
+
+
+					<div class="tab-pane fade" id="v-pills-branches" role="tabpanel" aria-labelledby="v-pills-branches-tab">
+
+						<div class="container text-color-gray" id="v-pills-branches-container">
+
+						<form>
+
+							<div class="d-md-flex justify-content-between">
+
+								<h4 class="text-black">  إعدادات الفروع   </h4>
+								
+								<button class="btn btn-lg btn-secondary rounded-5 py-2 px-md-4 bg-color-orange shadow-none border-0" id="add-new-branch" type="button">
+									إضافة فرع جديد
+								</button>
+
+							</div>
+
+							<div class="row mt-4 pt-lg-5">
+
+								<div class="col-12 px-md-3">
+									<div class="bg-white box-branches-vr">
+
+										<div class="d-md-flex align-items-center">
+											<div>
+
+												<img src="./assets/libraries/icons/check-circled-outline.png" class="img-fluid">
+
+												<h4 class="d-inline-block ps-2 m-0">   ملك الشاورما   </h4>
+
+											</div>
+
+											<h5 class="m-0 ms-auto pt-3 pt-md-0">
+												مكان التوصيل الافتراضي
+											</h5>
+										</div>
+
+									</div>
+								</div>
+
+								<div class="col-12 px-md-3 mt-4">
+									<div class="bg-white box-branches">
+
+										<div class="d-md-flex justify-content-between">
+											<h4>مأكولات بحرية </h4>
+
+											<div>
+												<button class="btn btn-sm btn-gray px-4 text-color-gray">
+													تعيين كافتراضي
+												</button>
+											</div>
+										</div>
+
+										<hr class="">
+
+										<div class="d-md-flex justify-content-between">
+											<h4>  لحوم الطازج  </h4>
+
+											<div>
+												<button class="btn btn-sm btn-gray px-4 text-color-gray">
+													تعيين كافتراضي
+												</button>
+											</div>
+										</div>
+
+									</div>
+								</div>
+
+							</div>
+
+							<div class="row justify-content-center mt-5">
+
+								<div class="col-md-8 col-lg-5 d-grid">
+									<!-- save branches button -->
+									<button class="btn btn-lg btn-secondary rounded-5 py-2 px-md-5 bg-color-orange shadow-none border-0" id="save-branches" type="button">
+										حفظ
+									</button>
+								</div>
+
+							</div>
+
+						</form>
+
+						</div>
+
+
+						<div id="v-pills-add-new-branches" class="container text-color-gray">
+
+							<nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+
+								<ol class="breadcrumb text-black">
+
+									<li class="breadcrumb-item h4">
+										<a href="#" class="text-black text-decoration-none" id="return-to-v-pills-home-branches">  الفروع  </a>
+									</li>
+
+									<li class="breadcrumb-item h4 active" aria-current="page">  	إضافة فرع جديد  </li>
+
+								</ol>
+
+							</nav>
+
+							<div class="row mt-3 pt-lg-4">
+
+								<div class="col-12 px-md-3">
+									<div class="mb-4">
+										<label for="formControlAdressName" class="form-label h5">    إسم العنوان     </label>
+										<input type="text" class="form-control ps-4" id="formControlAdressName" value="مشويات الحمصي " >
+									</div>
+								</div>
+
+							</div>
+
+							<div class="mt-2">
+								
+								<h5>   حدد الموقع على الخريطة    </h5>
+								
+								<iframe class="w-100 rounded-5 img-fluid" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7706975.245715705!2d40.334173426925574!3d24.71962581499015!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x15e7b33fe7952a41%3A0x5960504bc21ab69b!2sSaudi%20Arabia!5e0!3m2!1sen!2sma!4v1648058850531!5m2!1sen!2sma" style="border:0; height: 300px;" allowfullscreen="" loading="lazy"></iframe>
+
+							</div>
+
+							<div class="row mt-4">
+
+								<div class="col-12 px-md-3">
+									<div class="mb-4">
+
+										<label for="formControlOtherInfo" class="form-label h5">    تفاصيل إضافية   </label>
+
+										<textarea class="form-control ps-4" id="formControlOtherInfo"></textarea>
+
+									</div>
+								</div>
+
+							</div>
+
+							<div class="row justify-content-center mt-3">
+
+								<div class="col-md-8 col-lg-5 d-grid">
+									<!-- save branches button -->
+									<button class="btn btn-lg btn-secondary rounded-5 py-2 px-md-5 bg-color-orange shadow-none border-0" id="save-new-branches" data-bs-toggle="modal" data-bs-target="#ModalSaveNewBranches" type="button">
+										حفظ
+									</button>
+								</div>
+
+								<!-- Modal -->
+								<div class="modal fade" id="ModalSaveNewBranches" tabindex="-1" aria-labelledby="ModalSaveNewBranches" aria-hidden="true">
+									<div class="modal-dialog modal-dialog-centered">
+
+										<div class="modal-content rounded-5">
+
+											<div class="modal-header border-0 pb-0">
+												<button type="button" class="btn-close ms-0" data-bs-dismiss="modal" aria-label="Close"></button>
+											</div>
+
+											<div class="modal-body text-center pt-1">
+
+												<img src="./assets/img/dataSaved.png" class="img-fluid">
+
+												<h3 class="my-5">  تم تغيير بياناتك بنجاح  </h3>
+
+												<div class="row justify-content-center mb-5">
+													<div class="col-10 col-md-8 d-grid ">
+														<!-- save data ok button -->
+														<button class="btn btn-lg btn-secondary rounded-5 py-3 px-md-5 bg-color-orange shadow-none border-0" id="save-new-branches-ok" type="submit" data-bs-dismiss="modal">
+															حسناً
+														</button>
+													</div>
+												</div>
+
+											</div>
+
+										</div>
+
+									</div>
+								</div> <!-- emd Modal -->
+
+							</div>
+							
+						</div><!--  end #v-pills-add-new-branches -->
+
+					</div> <!-- end #v-pills-branches -->
+
+
+					<div class="tab-pane fade" id="v-pills-who-we-are" role="tabpanel" aria-labelledby="v-pills-who-we-are-tab">
+
+						<div class="container text-color-gray" id="v-pills-who-we-are-container">
+
+							<form>
+
+								<div class="d-md-flex justify-content-between">
+
+									<h2 class="text-black">  من نحن     </h2>
+
+								</div>
+
+								<div class="text-center py-5">
+									<img class="img-fluid" src="./assets/img/sol.png">
+								</div>
+
+								<div class="box-who-we-are p-4 my-4">
+									سول ستور، هو أكبر موقع لمنتجات المأكولات في العالم العربي ويضم أكثر من 400,000 منتج من مختلف الفئات التي تشمل المعلبات، والفواكه، والخضروات، والالبان والاجبان، والبهارات والحبوب وغيرها. 
+								</div>
+
+								<div class="text-center py-5">
+									<p>
+										يمكنك المتابعة والتواصل معنا عبر
+									</p>
+
+									<a href="#" class="mx-3 text-decoration-none">
+										<img class="img-fluid" src="./assets/libraries/icons/facebook.png">	
+									</a>
+
+									<a href="#" class="mx-3 text-decoration-none">
+										<img class="img-fluid" src="./assets/libraries/icons/twitter.png">	
+									</a>
+
+									<a href="#" class="mx-3 text-decoration-none">
+										<img class="img-fluid" src="./assets/libraries/icons/instagram.png">
+									</a>
+								</div>
+
+							</form>
+
+						</div>
+
+					</div>
+
+
+
+					<div class="tab-pane fade" id="v-pills-terms" role="tabpanel" aria-labelledby="v-pills-terms-tab">
+						
+						<div class="container text-color-gray" id="v-pills-terms-container">
+
+								<div>
+
+									<h2 class="text-black">    الشروط والأحكام    </h2>
+
+								</div>
+
+								<div class="rounded-3 bg-white py-3 px-4  mt-3 mt-lg-5">
+
+									<h3 class="text-black">   مقدمة:   </h3>
+
+									<p>
+										 بإستعمالك لموقع سول أو بزيارته، وهي خدمة مقدمة من قبل شركة رمال لتقنية المعلومات (المشار إليها لاحقاً بـ "موقع سول" أو "سول" أو "الموقع" أو "الشركة")، فإنك توافق على الشروط والبنود الواردة في هذه الوثيقة (المشار إليها لاحقاً بـ "القوانين" أو "الشروط والأحكام وسياسة الخصوصة" أو "شروط وأحكام الخدمة" أو "سياسة الخصوصية"). إذا كنت لا توافق على أية بنود أو شروط في هذه الوثيقة، فنرجو منك عدم إستخدام الموقع.
+									</p>
+
+									<h3 class="text-black">   موقع سول :   </h3>
+
+									<p>
+										تنطبق اتفاقية الإستخدام هذه على جميع المستخدمين وزوار الموقع.
+									</p>
+
+									<h3 class="text-black">   البنود والسياسات والأحكام :   </h3>
+
+									<p>
+										<div>
+											1- أنت مسؤول عن إبقاء كلمة المرور التابعة لك محمية. كما وأنه يترتب عليك إعلام سول بشكل فوري عن أية اختراقات أمنية أو استعمال غير مخول به لحسابك في سول. ومع أن سول لن يكون مسؤولًا عن الأضرار التي قد تلحق بك جراء الإستعمال الغير مخول به لحسابك، فإنك ستكون مسؤولاً عن الأضرار التي قد تلحق بالموقع أو بالغير من جراء الإستعمال الغير مخول به. 
+										</div>
+
+										<div>
+											2- يجب أن لا تغير، أو تلائم، أو تعدل في موقع سول، أو تعدل على موقع آخر ليكون مشابهاً أو يوحي إلى الجمهور بطريقة خاطئة أنه متصل أو ذي علاقة بموقع سول أو الشركة. 
+										</div>
+
+										<div>
+											3- يجب أن لا تقوم بإساءة التصرف وتتسبب بأضرار للموقع، سواءاً باستغلال أو استحداث أخطاء أو ثغرات أو طرق معينة تؤثر سلبياً على سول. أثناء استعمالك لموقع سول، عليك أن لا تخرق أي قوانين في الدولة التي تقطن بها.
+										</div>
+
+										<div>
+											4- يحق لسول الإطلاع على و تحليل و رصد جميع البيانات الخاصة بالمستخدمين أو الزوار و المقدمة من قبلهم أو الناتجة عن استخدامهم أو زيارتهم للموقع و إن ملكية هذه البيانات و التحليلات تعود لموقع سول.
+										</div>
+
+										<div>
+											5- يحق لسول مشاركة البيانات و التحليلات المذكورة في بند (5) مع شركائها أو أطراف خارجية.  
+
+										</div>
+
+										<div>
+											6- يحق لموقع سول تغيير جميع السياسات و البنود و القوانين الواردة في هذه الإتفاقية و في أي وقت و لأي سبب دون إشعار المستخدمين أو الزوار للموقع.
+										</div>
+
+										<div>
+											7- يحق لسول حذف أو إيقاف أي حساب أو حجب الخدمة عن أي شخص حسب ما يراه الموقع مناسبا دون الحاجة لتقديم أي تبريرات أو تعويضات لذلك.
+										</div>
+									</p>
+
+									<h3 class="text-black">  حقوق الملكية الفكرية :  </h3>
+
+									<p>
+										 إن جميع المحتوى الموجود على موقع سول، شاملاً دون أي تحديد، الكتابات، البرمجيات وأجزائها، والأشكال، والصور، والأصوات، والموسيقى،
+									</p>
+									
+								</div>
+
+						</div> <!-- end #v-pills-terms-container -->
+
+
+					</div> <!-- end #v-pills-terms -->
+
+
+					<div class="tab-pane fade" id="v-pills-lang" role="tabpanel" aria-labelledby="v-pills-lang-tab">
+						This is for changing language
+					</div>
+					<div class="tab-pane fade" id="v-pills-out" role="tabpanel" aria-labelledby="v-pills-ou-tab">
+						This is for log out!!
+					</div>
+					
+				</div>  <!-- end .col-7 .col-md-8 .col-lg-10  .tab-content-->
+				
+			</div> <!-- end .row -->
+
+		</div> <!-- end content -->
+
+	</section> <!-- end .min-vh-100 -->
+
+	<!-- Bootstrap JavaScript: Bundle with Popper -->
+	<script type="text/javascript" src="./assets/libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script type="text/javascript" src="./assets/js/scripts.js"></script>
+</body>
+</html>

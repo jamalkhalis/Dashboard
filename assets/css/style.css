@@ -1,0 +1,231 @@
+@font-face {
+  font-family: 'DIN Next LT W23';
+  src: url('./din-next-lt-w23-regular.ttf');
+}
+
+:root {
+  --color-orange: #FF9B30;
+  --color-gray: #656565;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'DIN Next LT W23';
+  background: #FAFAFA;
+  overflow-x: hidden;
+}
+
+.text-color-orange {
+  color: var(--color-orange) !important;
+}
+
+.bg-color-orange {
+  background: var(--color-orange) !important;
+}
+
+.text-color-gray {
+  color: var(--color-gray) !important;
+}
+
+.bg-color-gray {
+  background: var(--color-gray) !important;
+}
+
+.active-2 {
+  color: #C86661 !important;
+  background: rgba(200, 102, 97, 0.1);
+}
+
+.w-238 {
+  width: 238px;
+}
+
+.vh-88 {
+  height: 88vh !important;
+}
+
+.h-65 {
+  height: 65%;
+}
+
+.rounded-4 {
+  border-radius: 15px;
+}
+
+.rounded-5 {
+  border-radius: 20px;
+}
+
+.rectangle {
+  background: rgba(255, 255, 255, 0.16);
+  border-radius: 99px 99px 0px 0px;
+}
+
+div#v-pills-tab button.active {
+  background: white !important;
+  color: black !important;
+  border-radius: 10px;
+}
+
+/*change the icons from orange to white or inverse*/
+
+div#v-pills-tab button img.orangeIcon{
+  display: none;
+}
+
+div#v-pills-tab button img.whiteIcon{
+  display: inline-block;
+}
+
+div#v-pills-tab button.active img.orangeIcon{
+  display: inline-block;
+}
+
+div#v-pills-tab button.active img.whiteIcon{
+  display: none;
+}
+
+@media only screen and (min-width: 992px){
+
+    .container {
+    width: 1000px;
+    margin: 0 auto;
+  }
+
+}
+
+.box {
+  box-shadow: 0px 1.87777px 14.0832px rgba(0, 0, 0, 0.08);
+  border-radius: 9.38883px;
+  padding: 10px 32px 18px;
+}
+
+hr {
+  color: #CFCFCF;
+}
+
+@media only screen and (max-width: 576px){
+  body, html {
+    font-size: 13px;
+  }
+
+  .box {
+    padding: 10px 8px;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  .f-seize-email {
+    font-size: 15px;
+  }
+}
+
+.z-index-n1 {
+  z-index: -1;
+}
+
+input.form-control, textarea.form-control {
+  background: #FFFFFF;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  border: 1px solid rgba(147, 144, 144, 0.4);
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.top-55 {
+  top: 55% !important;
+}
+
+.start-4 {
+  right: 4% !important;
+}
+
+.z-index-1 {
+  z-index: 1;
+}
+
+.z-index-0 {
+  z-index: 0;
+}
+
+select {
+  background-image: url("./../libraries/icons/dropdown.svg") !important;
+}
+
+@media only screen and (max-width: 576px){
+
+  #exampleFormControlInput4 {
+    width: 50% !important;
+  }
+
+  #formControlMessage2 {
+    width: 50% !important;
+  }
+
+}
+
+.btn-close {
+  background: transparent url("./../libraries/icons/btn-close.png") center no-repeat !important;
+  opacity: 1 !important;
+}
+
+.end-3 {
+  left: 3% !important;
+}
+
+.was-validated .form-control:invalid {
+  background-position: left calc(-9em + 12rem) center;
+}
+
+.was-validated .form-control:valid {
+  background-position: left calc(-9em + 12rem) center;
+}
+
+#invalidFeedbackPassword {
+  color: red;
+}
+
+.btn-gray {
+  background: rgba(200, 211, 217, 0.3);
+  border-radius: 9.9442px;
+}
+
+.box-branches {
+  background: #FFFFFF;
+  box-shadow: 0px 1.98884px 14.9163px rgba(0, 0, 0, 0.08);
+  border-radius: 12.9275px;
+  padding: 15.91px;
+}
+
+.box-branches-vr {
+  color: #29B260;
+  background: #FFFFFF;
+  border: 0.99442px solid #29B260;
+  box-sizing: border-box;
+  box-shadow: 0px 1.98884px 14.9163px rgba(0, 0, 0, 0.08);
+  border-radius: 9.9442px;
+  padding: 16px;
+}
+
+@media only screen and (max-width: 576px){
+  iframe {
+    height: 150px !important;
+  }
+
+  #v-pills-terms-tab {
+    padding-left: 0px;
+  }
+}
+
+/*This style is for the who we are section*/
+
+.box-who-we-are {
+
+  background: #FFFFFF;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.08);
+  border-radius: 16px;
+
+}
